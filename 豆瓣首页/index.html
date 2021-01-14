@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>豆瓣</title>
+    <style>
+        .banner {
+            height: 304px;
+            background: url('./img/banner-bg.jpg') no-repeat 120px top/auto 100% #edf4ed;
+        }
+        .banner-container {
+            width: 950px;
+            margin: 0 auto;
+        }
+        iframe {
+            width: 300px;
+            height: 300px;
+            background-color: lightblue;
+        }
+        .banner-left {
+            margin-top: 100px;
+            margin-right: 32px;
+        }
+        .banner-left .title {
+            font-size: 25px;
+            color: #111;
+        }
+        .banner-left span {
+            margin-left: 6px;
+        }
+        .banner-left .download {
+            margin-top: 25px;
+            display: flex;
+        }
+        .banner-left .download button {
+            width: 115px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 2px;
+            font-size: 12px;
+            color: #fff;
+            background-color: rgb(65, 172, 82);
+            cursor: pointer;
+        }
+        .banner-left .download .qrcode {
+            /* display: inline-block; */
+        }
+        .banner-left .download img {
+            border: 1px solid rgb(72, 170, 13);
+            box-sizing: border-box;
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-wrapper clearFix">
+                <div class="header-left">
+                    <h1>
+                        <a href="#">豆瓣</a>
+                    </h1>
+                </div>
+                <div class="header-search">
+                    <form action="">
+                        <input type="text" class="input" placeholder="电影、书籍、音乐">
+                        <button>
+                            <i class="iconfont iconsousuo"></i>
+                        </button>
+                    </form>
+                </div>
+                <nav class="header-right">
+                    <a href="#" class="item-read"></a>
+                    <a href="#" class="item-movie"></a>
+                    <a href="#" class="item-music"></a>
+                    <a href="#" class="item-group"></a>
+                    <a href="#" class="item-fm"></a>
+                    <a href="#" class="item-city"></a>
+                    <a href="#" class="item-thing"></a>
+                    <a href="#" class="item-doupin"></a>
+                </nav>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="banner-container clearFix">
+                <iframe class="right" src="" frameborder="0"></iframe>
+                <div class="banner-left right">
+                    <div class="title">
+                        <h1>
+                            豆瓣
+                            <span>6.0</span>
+                        </h1>
+                    </div>
+                    <div class="download">
+                        <button type="button">下载豆瓣 App</button>
+                        <div class="qrcode">
+                            <img src="./img/icon-qr-small.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

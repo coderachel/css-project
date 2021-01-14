@@ -1,0 +1,75 @@
+@import '//at.alicdn.com/t/font_2315276_2kkf92ttr7p.css';
+
+/* 头部 */
+.header {
+    height: 90px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.header-wrapper {
+    width: 65%;
+    margin: 0 auto;
+}
+.header-left, .header-search, .header-right {
+    float: left;
+}
+.header-left a{
+    display: block;
+    padding-top: 30px;
+    width: 154px;
+    height: 0;
+    overflow: hidden;
+    background: url("../img/logo_db.png") no-repeat left top;
+    background-size: cover;
+}
+.header-search {
+    position: relative;
+    margin: 0 20px;
+}
+.header-search .input {
+    border: 1px solid #ccc;
+    width: 240px;
+    height: 20px;
+    padding: 5px;
+    font-size: 13px;
+}
+.header-search button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.header-right {
+    margin-top: 6px;
+}
+.header-right a {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin-left: 20px;
+    background-image: url('../img/nav_logo.png');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 463px 20px;
+}
+.header-right .item-movie {
+    background-position: -60px;
+}
+.header-right .item-music {
+    background-position: -120px;
+}
+.header-right .item-group {
+    background-position: -180px;
+}
+.header-right .item-fm {
+    background-position: -240px;
+}
+.header-right .item-city {
+    background-position: -300px;
+}
+.header-right .item-thing {
+    background-position: -360px;
+}
+.header-right .item-doupin {
+    background-position: -422px;
+}

@@ -1,0 +1,144 @@
+@import '//at.alicdn.com/t/font_2315276_ai0jq300cjw.css';
+.form {
+    margin: 1em auto;
+    width: 980px;
+    /* background-color: lightblue; */
+}
+
+.form h2 {
+    color: #000;
+    font-size: 38px;
+    text-align: center;
+    width: 980px;
+    height: 18px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+.form h2 span {
+    background-color: #fff;
+    padding: 0 20px;
+}
+
+/* 文本框区域 */
+.form-area {
+    width: 425px;
+    margin: 0 auto;
+}
+
+.form-area .form-item {
+    margin: 50px 0;
+    position: relative;
+}
+
+.form-area .readme {
+    margin: -40px 0;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.phone-wrapper {
+    display: flex;
+}
+
+.select .title {
+    position: relative;
+}
+.select .title i {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    color: #ccc;
+}
+.select .title input {
+    width: 130px;
+    box-sizing: border-box;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 0px;
+    padding-left: 15px;
+    padding-right: 35px;
+    color: #ccc;
+    cursor: pointer;
+}
+.select .title input:focus {
+    border-color: #c0c4cc;
+}
+
+.select .title input:focus+i {
+    animation: focusrotate .5s forwards;
+}
+
+.select .title .blur {
+    animation: blurrotate .5s forwards;
+}
+@keyframes focusrotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+@keyframes blurrotate {
+    0% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.form-item .phone input{
+    width: 295px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.form-area .form-item .btn-sncode {
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    width: 130px;
+    padding: 0 4px;
+}
+
+.readme a{
+    color: #00a1d6;
+}
+
+.readme input {
+    display: none;
+}
+
+.readme .checkbox {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #dcdfe6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: bottom;
+}
+
+.readme input:checked+.checkbox {
+    border-color:rgb(0, 161, 214);
+}
+
+.readme input:checked+.checkbox::after {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    margin-left: 2.5px;
+    margin-top: 2.5px;  
+    background-color: rgb(0, 161, 214);
+    border-radius: 2px;
+}
+
+.txt-right {
+    text-align: right;
+}
